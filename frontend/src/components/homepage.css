@@ -1,0 +1,53 @@
+.title {
+    position: absolute;
+    top: 10px; /* Start near the top */
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.subtitle {
+    position: absolute;
+    top: 100px; /* Positioned below the title */
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 20px; /* Adjust size if needed */
+    font-weight: normal;
+}
+
+.title,
+.subtitle {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  color: white;
+  text-align: center;
+  padding: 10px 20px; 
+  background : linear-gradient(to right, #29002a, rgb(63, 30, 95), #29002a)/* Gives some spacing so the borders and background show nicely */
+}
+
+
+.buttons-container{
+    display: flex;
+    gap: 100px;
+}
+
+.homepageButtons{
+    background-color: blueviolet!important;
+    color: white;
+    /* padding: 15px 32px; */
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.homepageButtons:hover{
+    background-color: white !important;
+    color: blueviolet !important;
+}

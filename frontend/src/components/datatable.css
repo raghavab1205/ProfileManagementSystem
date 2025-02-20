@@ -1,0 +1,177 @@
+.datatable{
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 5pt;
+  background-color: rgb(33, 33, 33);
+  justify-content: center;
+}
+
+.tablebg{
+  margin-top: 10px;
+  background-color: rgb(203, 182, 201) ;
+  /* background: linear-gradient(to right, #ae6cfe, #f703ff); */
+}
+
+.delicon{
+  color: blueviolet ;
+}
+
+.delicon:hover{
+  color: rgb(210, 0, 0);
+}
+
+.editicon{
+  color: blueviolet;
+}
+
+.editicon:hover{
+  color: green;
+}
+
+.addicon{
+  border-width: 2pts;
+  border-color: grey;
+  border-radius: 10pt;
+  background-color: blueviolet;
+  color: black;
+  justify-content: center;
+}
+
+.addicon:hover{
+  background-color: rgb(177, 143, 176);
+  color: white;
+}
+
+.swal2-popup.popupclass{
+  color: white;
+  background-color: #29002a!important;
+  border: 3px solid black!important;
+}
+
+.formclass .MuiDialog-paper{
+  color: white;
+  background-color: #29002a!important;
+  border: 3px solid black!important;
+}
+
+.formclass .form-class{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.formclass .MuiTextField-root {
+  background-color: white;
+  border-radius: 5px;
+}
+
+.formcanbutton{
+  background-color: white!important;
+  color: blueviolet!important;
+  border: 1px solid black!important;
+}
+
+.formsubbutton{
+  background-color: white!important;
+  color: blueviolet!important;
+  border: 1px solid black!important;
+}
+
+.formcanbutton:hover{
+  background-color: red!important;
+  color: white!important;
+}
+
+.formsubbutton:hover{
+  background-color: green!important;
+  color: white!important;
+}
+
+.error-message{
+  /* background-color: rgb(203, 182, 201) !important; */
+  color: red !important;
+  /*border: 2px solid grey!important;*/
+  border-radius: 8px;
+  font-size: 14px!important;
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.pagination-container {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  background-color: rgb(203, 182, 201) ;
+  border-radius: 5px;
+  color: white;
+}
+
+.custom-toolbar{
+  color: white;
+  margin-bottom: 8px;
+  border-radius: 4px;
+}
+
+.custom-toolbar button {
+  color: rgb(33, 33, 33) !important; /* ✅ Targets all buttons in toolbar */
+}
+
+.custom-toolbar button:hover {
+  background-color: blueviolet !important;
+  color: white !important; /* ✅ Targets all buttons in toolbar */
+}
+
+.homebutton{
+  background-color: rgb(33, 33, 33) !important;
+  color: blueviolet !important;
+  border-radius: 10px !important;
+  width: 60px !important;
+  height: 35px !important;
+  font-size: 30px !important;
+}
+
+.homebutton:hover{
+  background-color: blueviolet !important;
+  color: white !important;
+}
+
+.formcl{
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+  gap: 10px; /* Add spacing between elements */
+  padding: 20px;
+  background-color: #1a1a1a; /* Adjust background */
+  border-radius: 8px; /* Optional: rounded corners */
+}
+
+input[type="file"] {
+  padding: 10px;
+  background: #1e1e1e;
+  color: white;
+  cursor: pointer;
+}
+
+input[type="file"]::-webkit-file-upload-button {
+  background: blueviolet;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.formbutton{
+  background-color: rgb(33, 33, 33) !important;
+  color: white !important;
+  border-radius: 5px !important;
+  font-size: large;
+  width: 200px;
+  height: 40px;
+}
+
+.formbutton:hover{
+  background-color: blueviolet !important;
+  color: white !important;
+}

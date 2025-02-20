@@ -1,0 +1,12 @@
+html, body, #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #29002a;/*linear-gradient(to right, #2c0f39, #9a029f);*/
+    display: flex; /* Enable flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+    transition: filter 0.3s;
+  }
+

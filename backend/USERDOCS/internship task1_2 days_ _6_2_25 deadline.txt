@@ -1,0 +1,11 @@
+Create a screen and add a datagrid pro to show the list of data
+
+Provide a Add button on top of grid to add the data
+
+on click of Add button, show a Dialog box to add the data to the grid
+
+show edit and delete icons in the last actions column of the datagrid
+
+on click of edit icon, show the prefilled details in the modal popup
+
+on click of delete icon, show a confirmation popup using swirl2-alert, on user confirmations delete the row from the grid
